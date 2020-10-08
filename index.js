@@ -5,7 +5,7 @@ function insertNew(){
   var input = document.createElement("input");
   var button = document.createElement("button");
   var text = document.createTextNode("-");
-
+  button.setAttribute("class", "button_plus");
   button.addEventListener('click', e => {
     e.currentTarget.parentNode.remove();
   })
@@ -34,7 +34,7 @@ function createMessage(message_data){
     }
     absent_text += "Приглашаю этих учеников в следующий раз на отработку за 30 минут до начала урока\n\n";
   }else{
-    absent_text = "**На присутствовали все**\n\n";
+    absent_text = "**На уроке присутствовали все**\n\n";
   }
   message_text+=absent_text;
 

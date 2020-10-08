@@ -1,0 +1,52 @@
+body{
+  background: linear-gradient(#064e4e, #b0b1bd) fixed no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_plus{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.padding_button{
+  padding: 15px 32px;
+  width: 120px;
+  margin-left: calc(50% - 60px);
+  margin-top: 30px;
+}
+
+.general{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.form_block{
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  margin-top: 20px;
+  background-color: aliceblue;
+
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  padding-top: 10px;
+  opacity: 0.9;
+  padding-bottom: 20px;
+}
+
+.input_block{
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+}
+
+.header_line{
+  margin-left: 20px;
+  color: #064e4e;
+}

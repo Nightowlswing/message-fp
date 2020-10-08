@@ -3,38 +3,44 @@
   <head>
     <meta charset="utf-8">
     <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
     <title>Form</title>
-    <div id = 'absent'>
-      <h3>Не было</h3>
-      <button type="button" name="button" onclick="insertNew()">+</button>
-      <div id = 'absent_form'>
-      </div>
-    </div>
-    <div id = 'things'>
-      <h3>На уроке мы</h3>
-      <div id = 'things_form'>
-        <textarea id="things_text" name="story" rows="5" cols="33"></textarea>
-      </div>
-    </div>
-    <div id = 'homework'>
-      <h3>Дз на следующий раз</h3>
-      <div id = 'homework_form'>
-        <textarea id="homework_text" name="story" rows="5" cols="33"></textarea>
-      </div>
-    </div>
-    <div id = 'additional'>
-      <h3>Кроме того</h3>
-      <div id = 'additional_form'>
-        <textarea id="additional_text" name="story" rows="5" cols="33"></textarea>
-      </div>
-    </div>
-    <button onclick="main()">Submit</button>
-    <div id = 'result'>
-      <h2>В итоге</h2>
-      <textarea id="result_text" name="story" rows="5" cols="33"></textarea>
-    </div>
   </head>
   <body>
+    <div class="general">
+      <div class="message_form">
+        <div id = 'absent' class="form_block">
+          <h3 class="header_line">Не было</h3>
+          <button type="button" name="button" onclick="insertNew()" class="header_line button_plus">+</button>
+          <div id = 'absent_form' class='input_block'>
+          </div>
+        </div>
+        <div id = 'things' class="form_block">
+          <h3 class="header_line">На уроке мы</h3>
+          <div id = 'things_form' class="input_block">
+            <textarea id="things_text" name="story" rows="5" cols="45"></textarea>
+          </div>
+        </div>
+        <div id = 'homework' class="form_block">
+          <h3 class="header_line">Дз на следующий раз</h3>
+          <div id = 'homework_form' class="input_block">
+            <textarea id="homework_text" name="story" rows="5" cols="45"></textarea>
+          </div>
+        </div>
+        <div id = 'additional' class="form_block">
+          <h3 class="header_line">Кроме того</h3>
+          <div id = 'additional_form' class="input_block">
+            <textarea id="additional_text" name="story" rows="5" cols="45"></textarea>
+          </div>
+        </div>
+        <button onclick="main()" class="button_plus padding_button">Submit</button>
+      </div>
+
+      <div id = 'result' class="input_block">
+        <h2>В итоге</h2>
+        <textarea id="result_text" name="story" rows="5" cols="45"></textarea>
+      </div>
+    </div>
 
   </body>
 </html>
