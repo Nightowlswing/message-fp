@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="index.js"></script>
+    <title>Form</title>
+    <div id = 'absent'>
+      <h3>Не было</h3>
+      <button type="button" name="button" onclick="insertNew()">+</button>
+      <div id = 'absent_form'>
+      </div>
+    </div>
+    <div id = 'things'>
+      <h3>На уроке мы</h3>
+      <div id = 'things_form'>
+        <textarea id="things_text" name="story" rows="5" cols="33"></textarea>
+      </div>
+    </div>
+    <div id = 'homework'>
+      <h3>Дз на следующий раз</h3>
+      <div id = 'homework_form'>
+        <textarea id="homework_text" name="story" rows="5" cols="33"></textarea>
+      </div>
+    </div>
+    <div id = 'additional'>
+      <h3>Кроме того</h3>
+      <div id = 'additional_form'>
+        <textarea id="additional_text" name="story" rows="5" cols="33"></textarea>
+      </div>
+    </div>
+    <button onclick="main()">Submit</button>
+    <div id = 'result'>
+      <h2>В итоге</h2>
+      <textarea id="result_text" name="story" rows="5" cols="33"></textarea>
+    </div>
+  </head>
+  <body>
+
+  </body>
+</html>
